@@ -1,25 +1,9 @@
-#include <iostream>
-#include <cstdint>
-#include "Points.hpp"
+#include "lista.hpp"
 
-using HP = Points;
-using MP = Points;
-
-struct Player
-{
-   HP _HP;
-   MP _MP;
-
-   Player(Points HP, Points MP)
-      : _HP(HP)
-      , _MP(MP)
-   {}
-};
+using namespace std;
 
 int main()
 {
-   Player p(100, 100);
-
-   std::cout << "Kaczka!" << std::endl;
-	return 0;
+    cout<<"negrito";
+    return 0;
 }
